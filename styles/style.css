@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    height: 150px;
+    width: 100vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.realtor-title, .customer-title {
+    padding-bottom: 10px;
+}
+
+/* Main */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.for-sale {
+    margin-bottom: 70px;
+}
+
+.propcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.for-sale h2, .rent h2 {
+    margin-bottom: 25px;
+}
+
+.card {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 15px;
+    width: calc(100% / 3 - 30px);
+}

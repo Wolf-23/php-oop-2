@@ -6,9 +6,9 @@ class Realtor extends User{
 
     public $realtorCode;
 
-    public function __construct($email, $password, $realtorCode)
+    public function __construct($name, $lastaname, $email, $password ,$address, $postalCode, $city, $realtorCode)
     {
-        parent::__construct($email, $password);
+        parent::__construct($name, $lastaname, $email, $password, $address, $postalCode, $city);
         $this->realtorCode = $realtorCode;
     }
 }
