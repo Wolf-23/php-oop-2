@@ -3,9 +3,9 @@ require_once __DIR__ . '/Property.php';
 class Rent extends Property {
     public $rentPrice;
 
-    public function __construct($type, $propertyCode, $squaremeters, $rentPrice, $address, $postalCode, $city)
+    public function __construct($type, $propertyCode, $squareMeters, $rentPrice, $address, $postalCode, $city)
     {
-        parent::__construct($type, $propertyCode, $squaremeters, $address, $postalCode, $city);
+        parent::__construct($type, $propertyCode, $squareMeters, $address, $postalCode, $city);
         $this->rentPrice = $rentPrice;
     }
 
